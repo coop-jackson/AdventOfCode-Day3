@@ -46,7 +46,7 @@ for i in range(0, len(rucksack), 3):
     elf_one = rucksack[i].strip()
     elf_two = rucksack[i + 1].strip()
     elf_three = rucksack[i + 2].strip()
-    # 
+    #triple nested for loop to find 'badge'
     for items_one in elf_one:
 
         for items_two in elf_two:
